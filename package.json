@@ -13,7 +13,8 @@
     "cz": "cz"
   },
   "dependencies": {
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",

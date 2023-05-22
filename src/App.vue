@@ -1,8 +1,14 @@
-<script></script>
+<script>
+export default {
+  name: "App",
+  data() {
+    return {};
+  },
+};
+</script>
 
 <template>
-  <header></header>
-
-  <main>my personal website</main>
+  <component :is="$route.meta.layout">
+    <router-view />
+  </component>
 </template>
-<style scoped></style>
